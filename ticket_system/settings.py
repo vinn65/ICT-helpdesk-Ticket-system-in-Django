@@ -71,7 +71,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'ticket_system.wsgi.application'
 
-
+import dj_database_url
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
